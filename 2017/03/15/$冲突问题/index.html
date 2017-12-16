@@ -5,19 +5,20 @@
   
 
   
-  <title>Hexo</title>
+  <title>$冲突问题 | Hexo</title>
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
-  <meta name="description" content="webpack-app A Vue.js project  Build Setup1234567891011# install dependenciesnpm install# serve with hot reload at localhost:8080npm run dev# build for production with minificationnpm run build# build">
+  <meta name="description" content="与其他JS库共存先引入其他JS库,后引入jQuery “$”符号属于其他JS库 jQuery中不再使用”$”符号.而使用jQuery   第一种方式 jQuery(document).ready(function(){     console.log(&amp;quot;this is ready.&amp;quot;); });   后引入jQuery的库文件 – 默认$使用权是jQuery调用jQuery.n">
+<meta name="keywords" content="jQuery">
 <meta property="og:type" content="article">
-<meta property="og:title" content="Hexo">
-<meta property="og:url" content="http://yoursite.com/2017/11/05/README (2)/index.html">
+<meta property="og:title" content="$冲突问题">
+<meta property="og:url" content="http://yoursite.com/2017/03/15/$冲突问题/index.html">
 <meta property="og:site_name" content="Hexo">
-<meta property="og:description" content="webpack-app A Vue.js project  Build Setup1234567891011# install dependenciesnpm install# serve with hot reload at localhost:8080npm run dev# build for production with minificationnpm run build# build">
+<meta property="og:description" content="与其他JS库共存先引入其他JS库,后引入jQuery “$”符号属于其他JS库 jQuery中不再使用”$”符号.而使用jQuery   第一种方式 jQuery(document).ready(function(){     console.log(&amp;quot;this is ready.&amp;quot;); });   后引入jQuery的库文件 – 默认$使用权是jQuery调用jQuery.n">
 <meta property="og:locale" content="zh-CN">
-<meta property="og:updated_time" content="2017-11-05T06:10:09.956Z">
+<meta property="og:updated_time" content="2017-12-15T12:49:04.000Z">
 <meta name="twitter:card" content="summary">
-<meta name="twitter:title" content="Hexo">
-<meta name="twitter:description" content="webpack-app A Vue.js project  Build Setup1234567891011# install dependenciesnpm install# serve with hot reload at localhost:8080npm run dev# build for production with minificationnpm run build# build">
+<meta name="twitter:title" content="$冲突问题">
+<meta name="twitter:description" content="与其他JS库共存先引入其他JS库,后引入jQuery “$”符号属于其他JS库 jQuery中不再使用”$”符号.而使用jQuery   第一种方式 jQuery(document).ready(function(){     console.log(&amp;quot;this is ready.&amp;quot;); });   后引入jQuery的库文件 – 默认$使用权是jQuery调用jQuery.n">
   
     <link rel="alternate" href="/atom.xml" title="Hexo" type="application/atom+xml">
   
@@ -64,37 +65,90 @@
   </div>
 </header>
       <div class="outer">
-        <section id="main"><article id="post-README (2)" class="article article-type-post" itemscope itemprop="blogPost">
+        <section id="main"><article id="post-$冲突问题" class="article article-type-post" itemscope itemprop="blogPost">
   <div class="article-meta">
-    <a href="/2017/11/05/README (2)/" class="article-date">
-  <time datetime="2017-11-05T06:10:09.955Z" itemprop="datePublished">2017-11-05</time>
+    <a href="/2017/03/15/$冲突问题/" class="article-date">
+  <time datetime="2017-03-15T06:07:43.000Z" itemprop="datePublished">2017-03-15</time>
 </a>
     
+  <div class="article-category">
+    <a class="article-category-link" href="/categories/jQuery/">jQuery</a>
+  </div>
+
   </div>
   <div class="article-inner">
     
     
+      <header class="article-header">
+        
+  
+    <h1 class="article-title" itemprop="name">
+      $冲突问题
+    </h1>
+  
+
+      </header>
+    
     <div class="article-entry" itemprop="articleBody">
       
-        <h1 id="webpack-app"><a href="#webpack-app" class="headerlink" title="webpack-app"></a>webpack-app</h1><blockquote>
-<p>A Vue.js project</p>
-</blockquote>
-<h2 id="Build-Setup"><a href="#Build-Setup" class="headerlink" title="Build Setup"></a>Build Setup</h2><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment"># install dependencies</span></span><br><span class="line">npm install</span><br><span class="line"></span><br><span class="line"><span class="comment"># serve with hot reload at localhost:8080</span></span><br><span class="line">npm run dev</span><br><span class="line"></span><br><span class="line"><span class="comment"># build for production with minification</span></span><br><span class="line">npm run build</span><br><span class="line"></span><br><span class="line"><span class="comment"># build for production and view the bundle analyzer report</span></span><br><span class="line">npm run build --report</span><br></pre></td></tr></table></figure>
-<p>For a detailed explanation on how things work, check out the <a href="http://vuejs-templates.github.io/webpack/" target="_blank" rel="noopener">guide</a> and <a href="http://vuejs.github.io/vue-loader" target="_blank" rel="noopener">docs for vue-loader</a>.</p>
+        <h2 id="与其他JS库共存"><a href="#与其他JS库共存" class="headerlink" title="与其他JS库共存"></a>与其他JS库共存</h2><h3 id="先引入其他JS库-后引入jQuery"><a href="#先引入其他JS库-后引入jQuery" class="headerlink" title="先引入其他JS库,后引入jQuery"></a>先引入其他JS库,后引入jQuery</h3><ul>
+<li>“$”符号属于其他JS库</li>
+<li>jQuery中不再使用”$”符号.而使用jQuery</li>
+</ul>
+<ul>
+<li><p>第一种方式</p>
+<pre><code>jQuery(document).ready(function(){
+    console.log(&quot;this is ready.&quot;);
+});
+</code></pre></li>
+</ul>
+<h3 id="后引入jQuery的库文件-–-默认-使用权是jQuery"><a href="#后引入jQuery的库文件-–-默认-使用权是jQuery" class="headerlink" title="后引入jQuery的库文件 – 默认$使用权是jQuery"></a>后引入jQuery的库文件 – 默认$使用权是jQuery</h3><h3 id="调用jQuery-noConflict-–-相当于主动放弃”-”"><a href="#调用jQuery-noConflict-–-相当于主动放弃”-”" class="headerlink" title="调用jQuery.noConflict(); – 相当于主动放弃”$”"></a>调用jQuery.noConflict(); – 相当于主动放弃”$”</h3><ul>
+<li><p>第二种方式</p>
+<pre><code>jQuery(document).ready(function($){
+    // 在当前函数中使用&quot;$&quot;符号 - jQuery
+});
+// &quot;$&quot;符号 - 其他JS库
+</code></pre></li>
+</ul>
+<ul>
+<li><p>第三种方式</p>
+<pre><code>(function($){
+    // 用自调函数$还是jQuery
+})(jQuery);
+// &quot;$&quot;符号 - 其他JS库
+</code></pre></li>
+<li><p>第四种方式</p>
+<pre><code>jQuery.noConflict();
+jQuery(function($){
+    console.log($(&quot;p&quot;).text());
+});
+</code></pre></li>
+</ul>
+<ul>
+<li><p>第五种方式</p>
+<pre><code>jQuery.noConflict();
+(function($){
+    console.log($(&quot;p&quot;).text());
+    //回调函数形参传$还是jQuery的
+})(jQuery);
+</code></pre></li>
+</ul>
 
       
     </div>
     <footer class="article-footer">
-      <a data-url="http://yoursite.com/2017/11/05/README (2)/" data-id="cjb9ca04v00018ovmiyzet35r" class="article-share-link">Share</a>
+      <a data-url="http://yoursite.com/2017/03/15/$冲突问题/" data-id="cjb9cdqs600007gvmp1sjupgu" class="article-share-link">Share</a>
       
       
+  <ul class="article-tag-list"><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/jQuery/">jQuery</a></li></ul>
+
     </footer>
   </div>
   
     
 <nav id="article-nav">
   
-    <a href="/2017/11/15/README/" id="article-nav-newer" class="article-nav-link-wrap">
+    <a href="/2017/11/05/README (2)/" id="article-nav-newer" class="article-nav-link-wrap">
       <strong class="article-nav-caption">Newer</strong>
       <div class="article-nav-title">
         
@@ -103,11 +157,6 @@
       </div>
     </a>
   
-  
-    <a href="/2017/03/15/$冲突问题/" id="article-nav-older" class="article-nav-link-wrap">
-      <strong class="article-nav-caption">Older</strong>
-      <div class="article-nav-title">$冲突问题</div>
-    </a>
   
 </nav>
 
